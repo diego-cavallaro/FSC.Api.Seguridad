@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\controllers\\autenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\controllers\\autenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\controllers\\derechoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\controllers\\derechoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\fsc.api.seguridad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\fsc.api.seguridad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\modelos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\modelos\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\modelos\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\modelos\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\modelos\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\modelos\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\modelos\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\modelos\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\modelos\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\modelos\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\modelos\\modelrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\modelos\\modelrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-14T22:24:37.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DerechosController.cs",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Controllers\\DerechosController.cs",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Controllers\\DerechosController.cs",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Controllers\\DerechosController.cs",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Controllers\\DerechosController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwBsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T20:57:00.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\appsettings.json",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\appsettings.json",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\appsettings.json",
+              "RelativeToolTip": "FSC.Api.Seguridad\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-25T15:05:35.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Program.cs",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Program.cs",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Program.cs",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADgvw8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T13:09:13.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PermissionService.cs",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Services\\PermissionService.cs",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Services\\PermissionService.cs",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Services\\PermissionService.cs",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Services\\PermissionService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-29T22:11:28.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FSC.Api.Seguridad.csproj",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj",
+              "RelativeToolTip": "FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-01T23:13:27.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\Permission.cs",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Modelos\\Permission.cs",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\Permission.cs",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Modelos\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T22:03:24.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Services\\UserService.cs",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Services\\UserService.cs",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T16:05:12.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutenticacionController.cs",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Controllers\\AutenticacionController.cs",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Controllers\\AutenticacionController.cs",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Controllers\\AutenticacionController.cs",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Controllers\\AutenticacionController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswCUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T13:08:07.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\User.cs",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Modelos\\User.cs",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\User.cs",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Modelos\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T15:08:48.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\Role.cs",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Modelos\\Role.cs",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\Role.cs",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Modelos\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T22:26:22.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RolePermission.cs",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\RolePermission.cs",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Modelos\\RolePermission.cs",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\RolePermission.cs",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Modelos\\RolePermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T22:50:15.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Modelos\\AppDbContext.cs",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\AppDbContext.cs",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Modelos\\AppDbContext.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAUwGoAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T14:05:26.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ModelRole.cs",
+              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\ModelRole.cs",
+              "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Modelos\\ModelRole.cs",
+              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Modelos\\ModelRole.cs",
+              "RelativeToolTip": "FSC.Api.Seguridad\\Modelos\\ModelRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T22:53:48.523Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

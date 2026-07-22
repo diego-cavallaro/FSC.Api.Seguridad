@@ -1,0 +1,43 @@
+[
+  {
+    "ContainingType": "FSC.Api.Login.Controllers.AutenticacionController",
+    "Method": "Validar",
+    "RelativePath": "FSC/Api/Autenticacion/Validar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FSC.Api.Seguridad.Controllers.DerechosController",
+    "Method": "GetPermissions",
+    "RelativePath": "FSC/Api/Derechos/GetDerechos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[FSC.Api.Seguridad.Modelos.Permission, FSC.Api.Seguridad, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

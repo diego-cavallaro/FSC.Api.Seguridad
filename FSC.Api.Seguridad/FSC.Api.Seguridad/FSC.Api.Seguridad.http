@@ -1,0 +1,6 @@
+@FSC.Api.Seguridad_HostAddress = http://localhost:5186
+
+GET {{FSC.Api.Seguridad_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

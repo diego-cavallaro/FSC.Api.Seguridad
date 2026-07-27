@@ -1,0 +1,10 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+*.vsidx
+/FSC.Api.Seguridad/FSC.Api.Seguridad/bin/Debug/net10.0/FSC.Api.Seguridad.pdb
+/FSC.Api.Seguridad/FSC.Api.Seguridad/obj/Debug/net10.0/FSC.Api.Seguridad.pdb
+/FSC.Api.Seguridad/FSC.Api.Seguridad/appsettings.json
+/FSC.Api.Mantenimiento/FSC.Api.Mantenimiento/obj/Debug/net10.0/FSC.Api.Mantenimiento.pdb
+/FSC.Api.Mantenimiento/FSC.Api.Mantenimiento/bin/Debug/net10.0/FSC.Api.Mantenimiento.pdb

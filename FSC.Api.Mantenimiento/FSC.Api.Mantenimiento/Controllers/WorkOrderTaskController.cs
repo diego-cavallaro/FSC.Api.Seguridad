@@ -10,6 +10,7 @@ namespace FSC.Api.Mantenimiento.Controllers
 {
     [Route("FSC/api/[controller]")]
     [ApiController]
+    [Authorize]
     public class WorkOrderTaskController : ControllerBase
     {
         private readonly WorkOrderTasksService _workOrderTasksService;
@@ -21,7 +22,6 @@ namespace FSC.Api.Mantenimiento.Controllers
 
         [HttpGet]
         [Route("GetTareasPendientes")]
-        [Authorize]
         public async Task<ActionResult<List<WorkOrderTask>>> GetPendingWorkOrderTasks()
         {
             // Extrae el token directamente del contexto sin lidiar con strings

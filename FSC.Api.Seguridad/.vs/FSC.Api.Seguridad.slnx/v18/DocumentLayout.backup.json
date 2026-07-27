@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\controllers\\autenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\controllers\\autenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\controllers\\derechoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\controllers\\derechoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -19,12 +11,20 @@
       "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\fsc.api.seguridad.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\controllers\\autenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\controllers\\autenticacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\controllers\\derechoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\controllers\\derechoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|solutionrelative:fsc.api.seguridad\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7ACF59D1-F6B2-5185-E0AC-56D76B37FD28}|FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.seguridad\\fsc.api.seguridad\\services\\permissionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Properties\\launchSettings.json",
@@ -82,7 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DerechosController.cs",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Controllers\\DerechosController.cs",
               "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Controllers\\DerechosController.cs",
@@ -90,25 +90,24 @@
               "RelativeToolTip": "FSC.Api.Seguridad\\Controllers\\DerechosController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAkwBsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T20:57:00.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T20:57:00.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\appsettings.json",
               "RelativeDocumentMoniker": "FSC.Api.Seguridad\\appsettings.json",
               "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\appsettings.json",
               "RelativeToolTip": "FSC.Api.Seguridad\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAwAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-25T15:05:35.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Program.cs",
               "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Program.cs",
@@ -116,8 +115,7 @@
               "RelativeToolTip": "FSC.Api.Seguridad\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADgvw8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T13:09:13.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T13:09:13.88Z"
             },
             {
               "$type": "Document",
@@ -133,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FSC.Api.Seguridad.csproj",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj",
               "RelativeDocumentMoniker": "FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj",
@@ -141,8 +139,7 @@
               "RelativeToolTip": "FSC.Api.Seguridad\\FSC.Api.Seguridad.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-01T23:13:27.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T23:13:27.553Z"
             },
             {
               "$type": "Document",
@@ -170,16 +167,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AutenticacionController.cs",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Controllers\\AutenticacionController.cs",
               "RelativeDocumentMoniker": "FSC.Api.Seguridad\\Controllers\\AutenticacionController.cs",
               "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\Controllers\\AutenticacionController.cs",
               "RelativeToolTip": "FSC.Api.Seguridad\\Controllers\\AutenticacionController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwCUAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAA7wCEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-25T13:08:07.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-25T13:08:07.016Z"
             },
             {
               "$type": "Document",

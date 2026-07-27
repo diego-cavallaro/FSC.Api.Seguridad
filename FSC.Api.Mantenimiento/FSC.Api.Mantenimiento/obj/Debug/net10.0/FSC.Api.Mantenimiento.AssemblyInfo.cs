@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FSC.Api.Mantenimiento")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f01502bf22d5f82eb289e7b8bbb4e5d5599883a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b1b920236dfd789d7e0abe51e8e0cc6d4044b78")]
 [assembly: System.Reflection.AssemblyProductAttribute("FSC.Api.Mantenimiento")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FSC.Api.Mantenimiento")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

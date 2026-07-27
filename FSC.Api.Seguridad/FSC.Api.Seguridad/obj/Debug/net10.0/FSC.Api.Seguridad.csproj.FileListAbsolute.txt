@@ -268,3 +268,4 @@ C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\ob
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\FSC.Api.Seguridad.pdb
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\FSC.Api.Seguridad.genruntimeconfig.cache
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\ref\FSC.Api.Seguridad.dll
+C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\FSC.Api.Seguridad.sourcelink.json

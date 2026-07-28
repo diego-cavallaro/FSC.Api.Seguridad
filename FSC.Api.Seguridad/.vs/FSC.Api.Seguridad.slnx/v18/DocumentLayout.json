@@ -66,8 +66,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -100,7 +108,7 @@
               "RelativeDocumentMoniker": "FSC.Api.Seguridad\\appsettings.json",
               "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Seguridad\\FSC.Api.Seguridad\\appsettings.json",
               "RelativeToolTip": "FSC.Api.Seguridad\\appsettings.json",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-06-25T15:05:35.252Z",
               "EditorCaption": ""

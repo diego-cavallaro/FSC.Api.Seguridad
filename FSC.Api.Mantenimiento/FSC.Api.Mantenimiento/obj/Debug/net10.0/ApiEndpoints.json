@@ -18,5 +18,129 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderWorkerController",
+    "Method": "Update",
+    "RelativePath": "FSC/api/WorkOrderWorker/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedWorker",
+        "Type": "FSC.Api.Mantenimiento.Modelos.WorkOrderWorker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderWorkerController",
+    "Method": "Delete",
+    "RelativePath": "FSC/api/WorkOrderWorker/Eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "woId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "taskNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "employeeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderWorkerController",
+    "Method": "Create",
+    "RelativePath": "FSC/api/WorkOrderWorker/Nuevo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workOrderWorker",
+        "Type": "FSC.Api.Mantenimiento.Modelos.WorkOrderWorker",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FSC.Api.Mantenimiento.Modelos.WorkOrderWorker",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderWorkerController",
+    "Method": "GetByIds",
+    "RelativePath": "FSC/api/WorkOrderWorker/ObtenerPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "woId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "taskNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "employeeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FSC.Api.Mantenimiento.Modelos.WorkOrderWorker",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderWorkerController",
+    "Method": "GetAll",
+    "RelativePath": "FSC/api/WorkOrderWorker/ObtenerTodos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[FSC.Api.Mantenimiento.Modelos.WorkOrderWorker, FSC.Api.Mantenimiento, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

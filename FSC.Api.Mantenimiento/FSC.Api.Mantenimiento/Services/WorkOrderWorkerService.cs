@@ -36,13 +36,13 @@ namespace FSC.Api.Mantenimiento.Services
             return workOrderWorker;
         }
 
-        public async Task<WorkOrderWorker?> UpdateAsync(long woId, int taskNo, string employeeId, WorkOrderWorker updatedWorker)
+        public async Task<WorkOrderWorker?> UpdateAsync(WorkOrderWorker updatedWorker)
         {
-            var existingWorker = await GetByIdsAsync(woId, taskNo, employeeId);
+            var existingWorker = await GetByIdsAsync(updatedWorker.WoId, updatedWorker.TaskNo, updatedWorker.EmployeeId);
 
             if (existingWorker == null)
             {
-                return null; // O puedes lanzar una excepción tipo NotFoundException
+                return null;
             }
 
             // Actualizamos solo los campos modificables (ignoramos las claves primarias)

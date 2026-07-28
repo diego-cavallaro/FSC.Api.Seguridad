@@ -70,6 +70,7 @@ builder.Services.AddDbContext<MantenimientoContext>(options =>
    );
 
 builder.Services.AddScoped<WorkOrderTasksService>();
+builder.Services.AddScoped<WorkOrderWorkerService>();
 
 var app = builder.Build();
 

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9E475917-F3C1-F8E4-AE27-991CED5616A8}|FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.mantenimiento\\fsc.api.mantenimiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E475917-F3C1-F8E4-AE27-991CED5616A8}|FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento.csproj|solutionrelative:fsc.api.mantenimiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E475917-F3C1-F8E4-AE27-991CED5616A8}|FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.mantenimiento\\fsc.api.mantenimiento\\controllers\\workorderworkercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E475917-F3C1-F8E4-AE27-991CED5616A8}|FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento.csproj|solutionrelative:fsc.api.mantenimiento\\controllers\\workorderworkercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,14 +27,6 @@
       "RelativeMoniker": "D:0:0:{9E475917-F3C1-F8E4-AE27-991CED5616A8}|FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento.csproj|solutionrelative:fsc.api.mantenimiento\\modelos\\workorderworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E475917-F3C1-F8E4-AE27-991CED5616A8}|FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.mantenimiento\\fsc.api.mantenimiento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9E475917-F3C1-F8E4-AE27-991CED5616A8}|FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento.csproj|solutionrelative:fsc.api.mantenimiento\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E475917-F3C1-F8E4-AE27-991CED5616A8}|FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.mantenimiento\\fsc.api.mantenimiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E475917-F3C1-F8E4-AE27-991CED5616A8}|FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento.csproj|solutionrelative:fsc.api.mantenimiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9E475917-F3C1-F8E4-AE27-991CED5616A8}|FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento.csproj|c:\\desarrollo\\aplicaciones\\restapifsc\\fsc\\fsc.api.mantenimiento\\fsc.api.mantenimiento\\modelos\\mantenimientocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E475917-F3C1-F8E4-AE27-991CED5616A8}|FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento.csproj|solutionrelative:fsc.api.mantenimiento\\modelos\\mantenimientocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -46,67 +42,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WorkOrderWorkerController.cs",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Controllers\\WorkOrderWorkerController.cs",
               "RelativeDocumentMoniker": "FSC.Api.Mantenimiento\\Controllers\\WorkOrderWorkerController.cs",
               "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Controllers\\WorkOrderWorkerController.cs",
               "RelativeToolTip": "FSC.Api.Mantenimiento\\Controllers\\WorkOrderWorkerController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA4wBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-27T22:19:39.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "WorkOrderTaskController.cs",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Controllers\\WorkOrderTaskController.cs",
               "RelativeDocumentMoniker": "FSC.Api.Mantenimiento\\Controllers\\WorkOrderTaskController.cs",
               "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Controllers\\WorkOrderTaskController.cs",
               "RelativeToolTip": "FSC.Api.Mantenimiento\\Controllers\\WorkOrderTaskController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-14T22:11:58.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "WorkOrderWorkerService.cs",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Services\\WorkOrderWorkerService.cs",
               "RelativeDocumentMoniker": "FSC.Api.Mantenimiento\\Services\\WorkOrderWorkerService.cs",
               "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Services\\WorkOrderWorkerService.cs",
               "RelativeToolTip": "FSC.Api.Mantenimiento\\Services\\WorkOrderWorkerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-27T22:09:16.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "WorkOrderTasksService.cs",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Services\\WorkOrderTasksService.cs",
               "RelativeDocumentMoniker": "FSC.Api.Mantenimiento\\Services\\WorkOrderTasksService.cs",
               "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Services\\WorkOrderTasksService.cs",
               "RelativeToolTip": "FSC.Api.Mantenimiento\\Services\\WorkOrderTasksService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-13T23:47:25.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "MantenimientoContext.cs",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Modelos\\MantenimientoContext.cs",
               "RelativeDocumentMoniker": "FSC.Api.Mantenimiento\\Modelos\\MantenimientoContext.cs",
@@ -114,12 +114,11 @@
               "RelativeToolTip": "FSC.Api.Mantenimiento\\Modelos\\MantenimientoContext.cs",
               "ViewState": "AgIAAGcDAAAAAAAAAAAswHMDAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-13T23:18:18.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-13T23:18:18.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "WorkOrderWorker.cs",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Modelos\\WorkOrderWorker.cs",
               "RelativeDocumentMoniker": "FSC.Api.Mantenimiento\\Modelos\\WorkOrderWorker.cs",
@@ -127,12 +126,11 @@
               "RelativeToolTip": "FSC.Api.Mantenimiento\\Modelos\\WorkOrderWorker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T21:23:14.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T21:23:14.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "WorkOrderTask.cs",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Modelos\\WorkOrderTask.cs",
               "RelativeDocumentMoniker": "FSC.Api.Mantenimiento\\Modelos\\WorkOrderTask.cs",
@@ -140,33 +138,19 @@
               "RelativeToolTip": "FSC.Api.Mantenimiento\\Modelos\\WorkOrderTask.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAmwBsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-23T21:04:27.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-23T21:04:27.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Program.cs",
               "RelativeDocumentMoniker": "FSC.Api.Mantenimiento\\Program.cs",
               "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\Program.cs",
               "RelativeToolTip": "FSC.Api.Mantenimiento\\Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAcwCMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEgAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-13T23:16:32.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\appsettings.json",
-              "RelativeDocumentMoniker": "FSC.Api.Mantenimiento\\appsettings.json",
-              "ToolTip": "C:\\Desarrollo\\Aplicaciones\\RestApiFSC\\FSC\\FSC.Api.Mantenimiento\\FSC.Api.Mantenimiento\\appsettings.json",
-              "RelativeToolTip": "FSC.Api.Mantenimiento\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-13T22:48:36.543Z",
               "EditorCaption": ""
             }
           ]

@@ -21,7 +21,6 @@ namespace FSC.Api.Mantenimiento.Services
         public async Task<WorkOrderWorker?> GetByIdsAsync(long woId, int taskNo, string employeeId)
         {
             return await _context.WorkOrderWorkers
-                // .Include(w => w.WorkOrderTask) // Descomenta si necesitas traer los datos de la tarea relacional
                 .FirstOrDefaultAsync(w => w.WoId == woId &&
                                           w.TaskNo == taskNo &&
                                           w.EmployeeId == employeeId
@@ -39,16 +38,13 @@ namespace FSC.Api.Mantenimiento.Services
         public async Task<WorkOrderWorker> CreateAsync(WorkOrderWorker workOrderWorker)
         {
             //El registro debe tener un trabajador asignado
-            if (workOrderWorker.EmployeeId == null)
-            {
+            if (String.IsNullOrEmpty(workOrderWorker.EmployeeId))
                 throw new InvalidOperationException("La tarea debe tener un Emplado asignado.");
-            }
-            //Validamos que no exista el trabajador ya asignado a la tarea
+
+            //Validamos que no exista el trabajador ya asignado a una tarea en la misma OT
             WorkOrderWorker worker = await GetWorkOrderTaskWorker(workOrderWorker.WoId, workOrderWorker.EmployeeId);
             if(worker != null)
-            {
-                throw new InvalidOperationException("La tarea ya tiene al Emplado asignado.");
-            }
+                throw new InvalidOperationException("Ya existe una tarea con este Emplado asignado en la OT.");
 
             await _context.WorkOrderWorkers.AddAsync(workOrderWorker);
             await _context.SaveChangesAsync();
@@ -61,9 +57,7 @@ namespace FSC.Api.Mantenimiento.Services
             var existingWorker = await GetByIdsAsync(updatedWorker.WoId, updatedWorker.TaskNo, updatedWorker.EmployeeId);
 
             if (existingWorker == null)
-            {
                 return null;
-            }
 
             // Actualizamos solo los campos modificables (ignoramos las claves primarias)
             existingWorker.WorkedHours = updatedWorker.WorkedHours;
@@ -83,9 +77,7 @@ namespace FSC.Api.Mantenimiento.Services
             var existingWorker = await GetByIdsAsync(woId, taskNo, employeeId);
 
             if (existingWorker == null)
-            {
                 return false;
-            }
 
             _context.WorkOrderWorkers.Remove(existingWorker);
             await _context.SaveChangesAsync();

@@ -18,7 +18,7 @@ namespace FSC.Api.Mantenimiento.Controllers
         public WorkOrderWorkerController(IValidator<WorkOrderWorker> validator, WorkOrderWorkerService workOrderWorkerService)
         {
             _workOrderWorkerService = workOrderWorkerService;
-            _validator=validator;
+            _validator = validator;
         }
 
         [HttpGet]
@@ -58,7 +58,7 @@ namespace FSC.Api.Mantenimiento.Controllers
             var validationResult = await _validator.ValidateAsync(workOrderWorker);
             if (!validationResult.IsValid)
             {
-                // Mapear a tu estructura propia directamente
+                // Mapear a nuestra estructura de manejo de errores
                 var errorResponse = new ErrorStructure
                 {
                     StatusCode = StatusCodes.Status400BadRequest,
@@ -71,6 +71,7 @@ namespace FSC.Api.Mantenimiento.Controllers
                 return BadRequest(errorResponse);
             }
 
+            //var e = Convert.ToInt32("HOLA");
             var createdWorker = await _workOrderWorkerService.CreateAsync(workOrderWorker);
 
             return await _workOrderWorkerService.GetByIdsAsync(createdWorker.WoId, createdWorker.TaskNo, createdWorker.EmployeeId);

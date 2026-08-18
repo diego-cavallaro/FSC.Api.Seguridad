@@ -34,9 +34,17 @@ namespace FSC.Api.Mantenimiento.Middlewares
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (Int32)HttpStatusCode.InternalServerError;
 
-            ErrorStructure response = new ErrorStructure(exception.Message);
-            response.StatusCode = context.Response.StatusCode;
-            response.Message = "Error Interno No Esperado";
+            String message = exception switch
+            {
+                InvalidOperationException => "Error de Validación",
+                _ => "Error Interno No Esperado"
+            };
+            ErrorStructure response = new ErrorStructure(exception.Message)
+            {
+                StatusCode = context.Response.StatusCode,
+                Message = message
+            };
+            
             //response.Details.Add(new DetailError() { Detail =  });
 
             return context.Response.WriteAsync(JsonSerializer.Serialize(response));

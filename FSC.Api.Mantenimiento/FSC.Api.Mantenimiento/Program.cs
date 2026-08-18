@@ -1,9 +1,15 @@
+using FluentValidation;
+using FSC.Api.Mantenimiento.Errors;
+using FSC.Api.Mantenimiento.Middlewares;
 using FSC.Api.Mantenimiento.Modelos;
 using FSC.Api.Mantenimiento.Services;
+using FSC.Api.Mantenimiento.Validators;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
+using SharpGrip.FluentValidation.AutoValidation.Mvc.Extensions;
 using System.Text;
 using System.Text.Json.Serialization;
 
@@ -72,6 +78,9 @@ builder.Services.AddDbContext<MantenimientoContext>(options =>
 builder.Services.AddScoped<WorkOrderTasksService>();
 builder.Services.AddScoped<WorkOrderWorkerService>();
 
+//Agregamos las validaciones para las entidades con FluentValidation
+builder.Services.AddValidatorsFromAssemblyContaining<Program>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -81,6 +90,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//Agregamos el middleware de manejo de errores inesperados
+app.UseMiddleware<GlobalExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 

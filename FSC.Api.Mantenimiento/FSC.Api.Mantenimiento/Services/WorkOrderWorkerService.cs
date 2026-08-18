@@ -28,8 +28,28 @@ namespace FSC.Api.Mantenimiento.Services
                                     );
         }
 
+        internal async Task<WorkOrderWorker> GetWorkOrderTaskWorker(long woId, string employeeId)
+        {
+            return await _context.WorkOrderWorkers
+                .FirstOrDefaultAsync(w => w.WoId == woId &&
+                                          w.EmployeeId == employeeId 
+                                    );
+        }
+
         public async Task<WorkOrderWorker> CreateAsync(WorkOrderWorker workOrderWorker)
         {
+            //El registro debe tener un trabajador asignado
+            if (workOrderWorker.EmployeeId == null)
+            {
+                throw new InvalidOperationException("La tarea debe tener un Emplado asignado.");
+            }
+            //Validamos que no exista el trabajador ya asignado a la tarea
+            WorkOrderWorker worker = await GetWorkOrderTaskWorker(workOrderWorker.WoId, workOrderWorker.EmployeeId);
+            if(worker != null)
+            {
+                throw new InvalidOperationException("La tarea ya tiene al Emplado asignado.");
+            }
+
             await _context.WorkOrderWorkers.AddAsync(workOrderWorker);
             await _context.SaveChangesAsync();
 
@@ -47,7 +67,7 @@ namespace FSC.Api.Mantenimiento.Services
 
             // Actualizamos solo los campos modificables (ignoramos las claves primarias)
             existingWorker.WorkedHours = updatedWorker.WorkedHours;
-            existingWorker.User = updatedWorker.User;
+            //existingWorker.User = updatedWorker.User;
             existingWorker.ExtraHours = updatedWorker.ExtraHours;
             existingWorker.HighHours = updatedWorker.HighHours;
             existingWorker.DepthHours = updatedWorker.DepthHours;

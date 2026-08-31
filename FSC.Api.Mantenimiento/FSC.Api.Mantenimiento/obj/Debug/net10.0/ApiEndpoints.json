@@ -1,8 +1,45 @@
 [
   {
     "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderTaskController",
+    "Method": "Update",
+    "RelativePath": "WorkOrderTask/Actualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updatedTask",
+        "Type": "FSC.Api.Mantenimiento.Modelos.WorkOrderTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderTaskController",
+    "Method": "Delete",
+    "RelativePath": "WorkOrderTask/Eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "woId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "taskNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderTaskController",
     "Method": "GetPendingWorkOrderTasks",
-    "RelativePath": "FSC/api/WorkOrderTask/GetTareasPendientes",
+    "RelativePath": "WorkOrderTask/GetTareasPendientes",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -20,9 +57,66 @@
     ]
   },
   {
+    "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderTaskController",
+    "Method": "Create",
+    "RelativePath": "WorkOrderTask/Nuevo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workOrderTask",
+        "Type": "FSC.Api.Mantenimiento.Modelos.WorkOrderTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FSC.Api.Mantenimiento.Modelos.WorkOrderTask",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderTaskController",
+    "Method": "GetByIds",
+    "RelativePath": "WorkOrderTask/ObtenerPorId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "woId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      },
+      {
+        "Name": "taskNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FSC.Api.Mantenimiento.Modelos.WorkOrderTask",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderWorkerController",
     "Method": "Update",
-    "RelativePath": "FSC/api/WorkOrderWorker/Actualizar",
+    "RelativePath": "WorkOrderWorker/Actualizar",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -38,7 +132,7 @@
   {
     "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderWorkerController",
     "Method": "Delete",
-    "RelativePath": "FSC/api/WorkOrderWorker/Eliminar",
+    "RelativePath": "WorkOrderWorker/Eliminar",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -64,7 +158,7 @@
   {
     "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderWorkerController",
     "Method": "Create",
-    "RelativePath": "FSC/api/WorkOrderWorker/Nuevo",
+    "RelativePath": "WorkOrderWorker/Nuevo",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -90,7 +184,7 @@
   {
     "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderWorkerController",
     "Method": "GetByIds",
-    "RelativePath": "FSC/api/WorkOrderWorker/ObtenerPorId",
+    "RelativePath": "WorkOrderWorker/ObtenerPorId",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -126,7 +220,7 @@
   {
     "ContainingType": "FSC.Api.Mantenimiento.Controllers.WorkOrderWorkerController",
     "Method": "GetAll",
-    "RelativePath": "FSC/api/WorkOrderWorker/ObtenerTodos",
+    "RelativePath": "WorkOrderWorker/ObtenerTodos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

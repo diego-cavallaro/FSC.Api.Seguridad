@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FSC.Api.Mantenimiento.Controllers
 {
-    [Route("FSC/api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     [Authorize]
     public class WorkOrderWorkerController : ControllerBase

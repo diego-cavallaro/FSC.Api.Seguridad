@@ -3,7 +3,7 @@ using FSC.Api.Mantenimiento.Errors;
 using FSC.Api.Mantenimiento.Middlewares;
 using FSC.Api.Mantenimiento.Modelos;
 using FSC.Api.Mantenimiento.Services;
-using FSC.Api.Mantenimiento.Validators;
+using FSC.Api.Mantenimiento.Validation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

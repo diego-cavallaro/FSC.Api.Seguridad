@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using FSC.Api.Mantenimiento.Modelos;
 
-namespace FSC.Api.Mantenimiento.Validators
+namespace FSC.Api.Mantenimiento.Validation
 {
     public class WorkOrderWorkerValidator : AbstractValidator<WorkOrderWorker>
     {

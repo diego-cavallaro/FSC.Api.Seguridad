@@ -1,4 +1,5 @@
 ﻿using FSC.Api.Mantenimiento.Modelos;
+using FSC.Api.Mantenimiento.Validation;
 using Microsoft.EntityFrameworkCore;
 
 namespace FSC.Api.Mantenimiento.Services
@@ -31,7 +32,7 @@ namespace FSC.Api.Mantenimiento.Services
         {
             return await _context.WorkOrderWorkers
                 .FirstOrDefaultAsync(w => w.WoId == woId &&
-                                          w.EmployeeId == employeeId 
+                                          w.EmployeeId == employeeId
                                     );
         }
 
@@ -39,12 +40,12 @@ namespace FSC.Api.Mantenimiento.Services
         {
             //El registro debe tener un trabajador asignado
             if (String.IsNullOrEmpty(workOrderWorker.EmployeeId))
-                throw new InvalidOperationException("La tarea debe tener un Emplado asignado.");
+                throw new CustomException("La tarea debe tener un Empleado asignado.");
 
             //Validamos que no exista el trabajador ya asignado a una tarea en la misma OT
             WorkOrderWorker worker = await GetWorkOrderTaskWorker(workOrderWorker.WoId, workOrderWorker.EmployeeId);
-            if(worker != null)
-                throw new InvalidOperationException("Ya existe una tarea con este Emplado asignado en la OT.");
+            if (worker != null)
+                throw new CustomException("Ya existe una tarea con este Empleado asignado en la OT.");
 
             await _context.WorkOrderWorkers.AddAsync(workOrderWorker);
             await _context.SaveChangesAsync();

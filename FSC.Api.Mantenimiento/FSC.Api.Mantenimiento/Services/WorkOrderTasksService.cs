@@ -1,4 +1,5 @@
 ﻿using FSC.Api.Mantenimiento.Modelos;
+using FSC.Api.Mantenimiento.Validation;
 using Microsoft.EntityFrameworkCore;
 
 namespace FSC.Api.Mantenimiento.Services
@@ -51,14 +52,14 @@ namespace FSC.Api.Mantenimiento.Services
             {
                 //Verificamos primero que haya personal asignado
                 if(existingWorkOrderTask.WorkOrderWorkers.Count == 0)
-                    throw new InvalidOperationException("No se puede cerrar una Tarea sin haber asignado Personal.");
+                    throw new CustomException("No se puede cerrar una Tarea sin haber asignado Personal.");
 
                 //Verificamos que el Personal involucrado tenga horas cargadas
                 foreach (WorkOrderWorker worker in existingWorkOrderTask.WorkOrderWorkers)
                 {
                     if(!worker.WorkedHours.HasValue && !worker.ExtraHours.HasValue && 
                         !worker.HighHours.HasValue && !worker.DepthHours.HasValue)
-                       throw new InvalidOperationException("Al cerrar la Tarea, no puede haber personal con horas en cero.");
+                       throw new CustomException("Al cerrar la Tarea, no puede haber personal con horas en cero.");
                 }
             }
 

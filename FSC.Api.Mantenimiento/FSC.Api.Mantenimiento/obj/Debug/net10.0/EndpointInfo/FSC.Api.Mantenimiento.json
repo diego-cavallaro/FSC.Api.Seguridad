@@ -5,7 +5,7 @@
     "version": "v1"
   },
   "paths": {
-    "/FSC/api/WorkOrderTask/GetTareasPendientes": {
+    "/WorkOrderTask/GetTareasPendientes": {
       "get": {
         "tags": [
           "WorkOrderTask"
@@ -43,7 +43,163 @@
         }
       }
     },
-    "/FSC/api/WorkOrderWorker/ObtenerTodos": {
+    "/WorkOrderTask/ObtenerPorId": {
+      "get": {
+        "tags": [
+          "WorkOrderTask"
+        ],
+        "parameters": [
+          {
+            "name": "woId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "taskNo",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorkOrderTask"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorkOrderTask"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorkOrderTask"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WorkOrderTask/Nuevo": {
+      "post": {
+        "tags": [
+          "WorkOrderTask"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkOrderTask"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkOrderTask"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkOrderTask"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorkOrderTask"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorkOrderTask"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WorkOrderTask"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WorkOrderTask/Actualizar": {
+      "put": {
+        "tags": [
+          "WorkOrderTask"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkOrderTask"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkOrderTask"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WorkOrderTask"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WorkOrderTask/Eliminar": {
+      "delete": {
+        "tags": [
+          "WorkOrderTask"
+        ],
+        "parameters": [
+          {
+            "name": "woId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "taskNo",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WorkOrderWorker/ObtenerTodos": {
       "get": {
         "tags": [
           "WorkOrderWorker"
@@ -81,7 +237,7 @@
         }
       }
     },
-    "/FSC/api/WorkOrderWorker/ObtenerPorId": {
+    "/WorkOrderWorker/ObtenerPorId": {
       "get": {
         "tags": [
           "WorkOrderWorker"
@@ -135,7 +291,7 @@
         }
       }
     },
-    "/FSC/api/WorkOrderWorker/Nuevo": {
+    "/WorkOrderWorker/Nuevo": {
       "post": {
         "tags": [
           "WorkOrderWorker"
@@ -183,7 +339,7 @@
         }
       }
     },
-    "/FSC/api/WorkOrderWorker/Actualizar": {
+    "/WorkOrderWorker/Actualizar": {
       "put": {
         "tags": [
           "WorkOrderWorker"
@@ -214,7 +370,7 @@
         }
       }
     },
-    "/FSC/api/WorkOrderWorker/Eliminar": {
+    "/WorkOrderWorker/Eliminar": {
       "delete": {
         "tags": [
           "WorkOrderWorker"

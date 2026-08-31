@@ -1,4 +1,5 @@
 ﻿using FSC.Api.Mantenimiento.Errors;
+using FSC.Api.Mantenimiento.Validation;
 using System.Net;
 using System.Reflection.Metadata.Ecma335;
 using System.Text.Json;
@@ -36,12 +37,19 @@ namespace FSC.Api.Mantenimiento.Middlewares
 
             String message = exception switch
             {
-                InvalidOperationException => "Error de Validación",
+                CustomException => "Error de Validación",
+                InvalidOperationException => "Error de Operación",
                 _ => "Error Interno No Esperado"
+            };
+            Int32 statusCode = exception switch
+            {
+                CustomException => (exception as CustomException).StatusCode,
+                InvalidOperationException => context.Response.StatusCode,
+                _ => context.Response.StatusCode
             };
             ErrorStructure response = new ErrorStructure(exception.Message)
             {
-                StatusCode = context.Response.StatusCode,
+                StatusCode = statusCode,
                 Message = message
             };
             

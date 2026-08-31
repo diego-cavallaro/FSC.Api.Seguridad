@@ -10,7 +10,7 @@ using System.Security;
 
 namespace FSC.Api.Mantenimiento.Controllers
 {
-    [Route("FSC/api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     [Authorize]
     public class WorkOrderTaskController : ControllerBase

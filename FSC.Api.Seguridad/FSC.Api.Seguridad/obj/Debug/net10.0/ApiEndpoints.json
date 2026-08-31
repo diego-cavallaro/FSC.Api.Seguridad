@@ -2,7 +2,7 @@
   {
     "ContainingType": "FSC.Api.Login.Controllers.AutenticacionController",
     "Method": "Validar",
-    "RelativePath": "FSC/Api/Autenticacion/Validar",
+    "RelativePath": "Autenticacion/Validar",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -23,7 +23,7 @@
   {
     "ContainingType": "FSC.Api.Seguridad.Controllers.DerechosController",
     "Method": "GetPermissions",
-    "RelativePath": "FSC/Api/Derechos/GetDerechos",
+    "RelativePath": "Derechos/GetDerechos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

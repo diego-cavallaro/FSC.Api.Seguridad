@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace FSC.Api.Seguridad.Controllers
 {
-    [Route("FSC/Api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class DerechosController : ControllerBase
     {

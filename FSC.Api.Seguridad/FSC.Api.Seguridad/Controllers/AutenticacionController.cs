@@ -10,7 +10,7 @@ using BCrypt.Net;
 
 namespace FSC.Api.Login.Controllers
 {
-    [Route("FSC/Api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class AutenticacionController : ControllerBase
     {
@@ -38,10 +38,11 @@ namespace FSC.Api.Login.Controllers
                 claims.AddClaim(new Claim("nickName", loginName));
                 claims.AddClaim(new Claim("legajo", user.legajo));
 
+                //Le damos una duración al token de 20 Hs
                 var tokenDescriptor = new SecurityTokenDescriptor
                 {
                     Subject = claims,
-                    Expires = DateTime.UtcNow.AddMinutes(5),
+                    Expires = DateTime.UtcNow.AddMinutes(1200),
                     SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(keyBytes), SecurityAlgorithms.HmacSha256Signature),
                 };
 

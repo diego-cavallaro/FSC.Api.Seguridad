@@ -261,7 +261,6 @@ C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\ob
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\staticwebassets.development.json
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\swae.build.ex.cache
-C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\FSC.Api..71AB07E8.Up2Date
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\FSC.Api.Seguridad.dll
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\refint\FSC.Api.Seguridad.dll
@@ -269,3 +268,5 @@ C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\ob
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\FSC.Api.Seguridad.genruntimeconfig.cache
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\ref\FSC.Api.Seguridad.dll
 C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\FSC.Api.Seguridad.sourcelink.json
+C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\bin\Debug\net10.0\dotnet-tools.json
+C:\Desarrollo\Aplicaciones\RestApiFSC\FSC\FSC.Api.Seguridad\FSC.Api.Seguridad\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

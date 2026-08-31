@@ -1,3 +1,4 @@
+using FSC.Api.Seguridad.Middlewares;
 using FSC.Api.Seguridad.Modelos;
 using FSC.Api.Seguridad.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -79,6 +80,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//Agregamos el middleware de manejo de errores inesperados
+app.UseMiddleware<GlobalExceptionMiddleware>();
 
 app.UseHttpsRedirection();
 
